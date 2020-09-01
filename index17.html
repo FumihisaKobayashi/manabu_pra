@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>htmlの練習</title>
+</head>
+<body>
+    <!--fieldset: 複数の入力欄をまとめる
+        legend:  fieldsetでまとめた項目の説明を省く
+        label: 入力ランをラベルで利用する  / idに対してlabelのfor属性で指定する-->
+    <fieldset>
+        <legend>IDとパスワード</legend>
+        <label for="name">ID</label><input type="text" name="name" id="name"><br>
+        <label for="pass">Password</label><input type="password" name="pass" id="pass"><br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>性別</legend> <!--id　葉ペーに一つ。文字にも属性を持たせる-->
+        <input type="radio" name="gender" value = "male" id="male"><label for="male">男性</label><br>
+        <input type="radio" name="gender" value = "female" id="female"><label for="female">女性</label><br>
+    </fieldset>
+    <br>
+
+</body>
+</html>
