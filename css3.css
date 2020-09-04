@@ -1,0 +1,14 @@
+/*タイプセレクタ：html
+  idセレクタ：html = id    css = # (#test) １つのページに一度
+  classセレクタ： html = class属性 CSS:  .  を使って選択 (.test)　何度も出てくる  */
+
+.test{
+    background-color:gray;
+
+    
+
+}
+#header{
+    font-size: 30px;
+    
+}
