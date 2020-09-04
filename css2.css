@@ -1,0 +1,17 @@
+/*ブロック要素  p  div  table  h1~h6  前後が改良された形になる
+　　インライン要素　　a  span  img  */
+h1{
+    color: blue;
+    font-size: 15px;
+    
+}
+
+p{
+    font-size: 9px;
+    background-color: red;
+
+}
+
+span{
+    background-color:rebeccapurple;
+}
