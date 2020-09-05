@@ -1,0 +1,17 @@
+.black,
+.red,
+.green{
+    font-size:20px;
+    font-weight: bold;
+}
+
+.black{
+    color:black;
+}
+.red{
+    color:red;
+}
+.green{
+    color:green;
+}
+/*base red などでもまとめられる。　属性もつけて。*/
