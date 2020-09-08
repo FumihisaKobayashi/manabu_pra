@@ -10,8 +10,14 @@ body{
     width: 760px;
 
 }
-/*特殊なセレクタを使うと*/
-p > a{
-    color:red;
+/*属性セレクタを使うと*/
+[class]{
+    background-color:crimson;
+    color:white;
+    padding: 5px;
+
+}
+[href]{
+    background-color:blue;
     
 }
