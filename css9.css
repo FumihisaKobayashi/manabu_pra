@@ -10,4 +10,15 @@
  inherit : 親要素を指定する。
  
  font :<font-style>*/
- 
+ body{
+   padding: 1em 6em;
+
+ }
+
+ p{
+   font-style: oblique;
+ }
+
+h1{
+  font: italic small-caps lighter 2.5em/2.7em sans-serif;
+}
