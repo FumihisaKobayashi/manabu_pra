@@ -1,0 +1,27 @@
+/*list-style-type
+  ul指定
+   disc円形　cicle中円型  square 四角
+ol指定  
+   decimal:数値 decimal-leading-zero:数値
+   lower-roman:ローマ数字小文字
+   lower-alpha:英語小文字*/
+
+/*list-style-position
+  inside  outside   inherit*/
+
+  body{
+      padding: 1em 6em;
+  }
+
+  ul{
+      list-style-type: inside;
+
+  }
+
+  ol{
+    list-style-type:lower-roman;
+  }
+  li{
+      border: solid 1px;
+      margin-bottom: 5px;
+  }
