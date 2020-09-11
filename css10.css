@@ -1,0 +1,20 @@
+/*行間の指定
+　px
+  em
+  ex
+  %
+  */
+
+  body{
+      padding: 1em 6em;
+  }
+  /*行間指定*/
+  p{
+    line-height: 3em;
+  }
+
+/*文字の配置*/
+
+h1{
+    text-align: left;
+}
