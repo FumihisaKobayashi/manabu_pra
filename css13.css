@@ -1,0 +1,12 @@
+/*margin*/
+p{
+    margin: 10px;
+    /*marginは背景は塗られない。*/
+}
+h1{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: -30px;
+    margin-right: -20px;
+    /*内側に向かってマイナス表記もある。*/
+}
