@@ -1,0 +1,20 @@
+/*display   html要素をどのように表示するか
+  -block : ブロック要素として表示
+  -inline : インライン要素として表意
+  -inline-block : インラインで扱えるブロック要素
+  none : 表示しない。
+  
+  
+  visibility
+  visible : そのボックスを表示させる。
+  hidden: そのボックスを非表示にする。*/
+
+  a{
+      display: inline-block;
+      margin-bottom: 60px;
+  }
+
+div{
+    margin: 1.5 em 0;
+    visibility: visible;
+}
