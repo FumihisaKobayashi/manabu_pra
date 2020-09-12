@@ -1,0 +1,15 @@
+/*padding
+  余白の一部ボックス。ボーダーの内側のうちがわにあたる空白
+  
+  padding-top/right/left/bottom*/
+
+  p{
+      padding: 10px 20px 5px 30px;
+      /*したと同じ表記*/
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-bottom: 5px;
+      padding-right: 30px;
+  }
+  /*paddingされているエリアも色は塗られる。*/
+  
