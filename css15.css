@@ -1,0 +1,10 @@
+div{
+    padding: 10px 20px;
+    background-color:#eee;
+    border:10px;
+    max-width: 400px;
+    max-height: 300px;
+    overflow: scroll;
+    box-sizing: content-box;
+    
+}
