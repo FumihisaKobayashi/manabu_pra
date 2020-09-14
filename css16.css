@@ -1,0 +1,36 @@
+/*位置を決めるポジションの指定
+ static 配置方法決めない
+absolute 絶対一の指定
+static以外の指定した親のボックスの左上を基準とする。
+relative: 相対位置への配置
+fixed 絶対一への配置。スクロールしても固定される。
+
+配置
+top
+bottom
+right
+left*/
+
+.top{
+    background-color: red;
+    color: white;
+}
+
+.middle{
+    background-color:yellow;
+    color:black;
+    position: fixed;
+    top:10px;
+    left:10px;
+
+}
+
+div{
+    padding: 10px 20px;
+    background-color:#fff;
+    width:400px;
+    margin:10px auto;
+    position: relative;
+    z-index: 30;
+}
+/*z-index 奥行き指定*/
