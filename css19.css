@@ -1,0 +1,25 @@
+/*background-size
+ contain 背景領域に治るように最大になるように拡大
+ cover 背景領域を覆う最小サイズを操作*/
+
+div{
+        margin:50px auto;
+        font: 1.1em/1.5 sans-serif;
+        box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+body{
+    height:500px;
+    width:80%;
+    padding:30px;
+    border:10px solid rgba(66,39,40,  .6);
+    background:url('imag02.jpg') no-repeat center;
+    background-size:cover;
+    background-clip: content-box;
+    
+
+
+}
