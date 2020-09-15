@@ -1,0 +1,30 @@
+/*background-repeat どのように繰り返す
+　no-repeat 繰り返さない
+  repeat 縦横に繰り返す。
+  repeat-x 横のみ
+  repeat-y 縦方向
+  
+  background-position 背景の表示開始いち
+  center/ top/ bottom/ left / right
+  % 左上から % 開始しているか指定
+  background-attachment スクロールする時にどのように表示
+  fixed　動かない
+  scrol スクロールに沿って移動する。
+  local 合わせて移動*/
+
+.box{
+    background-image: url("img02.jpg");
+    background-repeat: repeat;
+    background-position: right top;
+
+}
+.scrol{
+    background-attachment: scroll;
+}
+.fixed{
+    background-attachment: fixed;
+}
+
+.local{
+    background-attachment: local;
+}
