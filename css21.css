@@ -1,0 +1,18 @@
+/*影をつける
+  box-shadow 水平方向の陰のオフセット*/
+
+body{
+    background:#3a3a3a;
+
+}
+
+.box{
+    margin:3em auto;
+    width: 700px;
+    height: 500px;
+    border-radius: 8px;
+    background: url('img02.jpg');
+    box-shadow: 20px 20px 10px 30px;
+    /*box-shadow: : 20px 0 10px 0 rgba(0, 20, 127, .8)inset;*/
+}
+
