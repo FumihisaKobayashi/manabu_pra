@@ -1,0 +1,17 @@
+/*角丸 border-radius
+  左上から時計回りで指定。
+  指定されたら、点対象と同じいち*/
+
+
+.rounded-box{
+    width: 600px;
+    height: 400px;
+    background-color:#fff;
+    border-radius:50px 20px 30px 40px / 100px 10px 60px 15px;
+
+}
+
+/*border-top-left-radius
+  border-top-right-radius
+  border-bottom-right-radius
+  border-bottom-left-radius*/
