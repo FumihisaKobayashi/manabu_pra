@@ -1,11 +1,38 @@
-
+/*ブロック要素  p  div  table  h1~h6  前後が改良された形になる
+　　インライン要素　　a  span  img  */
 h1{
     color: blue;
-    font-size: 15px;
+    font-size: 50px;
+    margin-bottom: 5px;
+    padding: 100px;
     
+}
+span{
+    color:red
 }
 
 p{
-    font-size: 9px;
+    font-size: 20px;
+    padding: 30px;
+
+}
+
+div{
+    background-color:gray;
+    font-weight: bold;
+    background-color:lightblue;
+    background-position: content-box;
+    border-bottom: 1px solid gray;
+
+
+
+}
+
+p1{
+    padding:580px;
+    display: inline;
+    background-repeat: repeat;
+    background-position: right top;
+    
 
 }
