@@ -1,0 +1,35 @@
+/*構造的な擬似要素の応用*/
+
+/*何個目を表す擬似要素
+- :nth-child()
+  最初から何番目?
+- lnth-last-child
+  最後から何番目
+*/
+
+ul{
+    color: #000;
+    font: normal 1.3em sans-serif;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+}
+
+li{
+    border: 1px solid;
+    margin: 12px 0;
+    padding: .6em;
+
+}
+
+
+/*擬似要素を使うと*/
+li:nth-child(2n){
+    /*nの２倍    2n +1　とかもあり
+      even  add  にて偶数　帰趨指定あり
+      
+      (-n+5) ５からした*/
+    background-color: green;
+
+}
