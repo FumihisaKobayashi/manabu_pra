@@ -1,0 +1,19 @@
+/*UIに対する擬似要素
+
+enabled　通常の状態(入力できる)input要素
+disabled　オプション指定されたinput要素(入力・選択できない)
+checked　主にradio checkboxなどで指定されたもの
+*/
+
+:disabled{
+    background-color: gray;
+
+}
+input[type="text"]:enabled{
+    background-color:yellow;
+}
+
+input[type="radio"]:checked + label{
+    font-weight: bold;
+}
+
