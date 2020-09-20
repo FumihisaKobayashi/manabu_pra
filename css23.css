@@ -1,0 +1,24 @@
+/*:nth-of-type() : 特定の親要素の中の子要素が対象になる。
+ nth-child() 特定の中の親他所のなかの中の親要素のなかの隣接する子要素が対象になる。
+:only-of-type 特定の親要素の中の子要素が対象*/
+
+
+ul{
+    color: #000;
+    font: normal 1.3em sans-serif;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+}
+
+li{
+    border: 1px solid;
+    margin: 12px 0;
+    padding: .6em;
+
+}
+
+li:only-of-type{
+    background-color: aqua;
+}
