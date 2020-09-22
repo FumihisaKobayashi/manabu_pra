@@ -1,0 +1,33 @@
+/*before 要素の直前を示す
+  after  要素の勅語を示す*/
+
+  ul{
+    color: #000;
+    font: normal 1.3em sans-serif;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+}
+
+li{
+    border: 1px solid;
+    margin: 12px 0;
+    padding: .6em;
+}
+
+.phone::before{
+    content: "\2706";
+}
+/*      after*/
+
+.dload::before{
+    content: "";
+    display: inline-block;
+    width:30px;
+    height:30px;
+    background-color: royalblue;
+    border-radius: 50%;
+    margin:1px;
+    
+}
