@@ -1,0 +1,31 @@
+ul{
+    color: #000;
+    font: normal 1.3em sans-serif;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+}
+
+li{
+    border: 1px solid;
+    margin: 12px 0;
+    padding: .6em;
+
+}
+
+/*セレクタ　CSS対象となる要素の特定するための目標
+  - タグ
+  ー　クラス
+  ー　ID
+  ー　ページ内で一つしか登場しない
+  ー　スペース　特定の要素の内側にある要素
+  --  >  特定要素の子要素
+   +  >  東庭ようsの次に来るようそ
+   〜　　兄弟関係にある要素
+   　擬似要素
+   -   hover / visited
+       first-child  / :last-child  / only-child
+       :nth-child  /  :nth-last-child  / :only-of-type
+       :first-line  /  ::first-letter
+       before  /  after /*/
