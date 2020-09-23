@@ -1,0 +1,18 @@
+/*線を引く
+  texr-decoration
+   - none 何もつかない
+   - underline　下線
+   - overline　上に線をつける
+   - line-through　打ち消し線をつける*/
+
+body{
+    padding: 1em 6em;
+}
+
+p{
+    text-decoration: underline;
+}
+
+a:hover{
+    text-emphasis: none;
+}
