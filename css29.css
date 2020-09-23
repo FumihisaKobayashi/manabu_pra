@@ -1,0 +1,21 @@
+/*文章を見やすくするインデント
+
+text-indent １行目のインデントを指定する
+text-transform 大・小文字のコントロール
+font-variant　との違いは大文字サイズの大文字　小文字も同様
+- none 通常
+- capitalize: 単語の先頭を大文字
+- lowercase 全て小文字
+- uppercase 全て大文字*/
+
+body{
+    padding: 1em 6em;
+}
+
+p{
+    text-indent: 10em;
+}
+
+h1{
+    text-transform: capitalize;
+}
