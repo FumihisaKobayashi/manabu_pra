@@ -1,0 +1,19 @@
+/*文字に影をつける
+text-shadow : 横方向のずれ　縦方向のズレ　ぼかしの幅　色色
+*/
+
+body{
+    padding: 1em 6em;
+}
+
+body{
+    background-color: aqua;
+}
+
+h1{
+    font-size:40px;
+    color: skyblue;
+    text-shadow: 10px 10px 1px rgba(255, 255, 255, 0.7);
+    text-shadow :9px 8px 0px rgba(0, 0, 0, 0.15);
+
+}
