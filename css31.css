@@ -1,0 +1,29 @@
+/*メディアクエリ
+ htmlで指定する。
+ <link rel="stylesheet" href=".style.css" media="[メディアクエリの記述]"
+ それぞれ別々のCSSを書く必要あり
+ cssで指定
+ @media(メディアクエリの記述){
+    }外に書いてあるCSSは全て適用される*/
+
+/*メディアタイプ どんなデバイスであるか
+all 全て
+screen いっぱんてきなdisplay全般
+projection プロジェクター
+print 印刷*/
+
+/*media特製
+- width 表示領域の横幅
+- height　表示領域の縦幅
+- max-width 指定が適用される最大値
+- min width　指定が適用される最小値
+- device-width デバイスの横幅
+- device-height　デバイスの縦
+- orientaion　デバイスの向き(スマホタブ向け) 縦幅 portrait　横幅 landscape*/
+
+
+@media screen (min-width: 480px) and (max-width:720px) {
+    /*Cssの記述*/
+
+}
+
