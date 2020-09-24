@@ -1,0 +1,24 @@
+/*ページの印刷
+##使うbき単位　絶対的な数字で指定する
+  cm  /  mm  /  inch  /  pt  
+##リンク対応　印刷されたものはリンクを飛べなくなる
+ - リンクのURLを貼ることでURLの確認ができる
+a[href^="http:"]::after{
+    content: " [" attr(href) "]";
+    color: blue;
+
+##印刷ページ毎の設定
+@page{
+    margin: .5cm;
+}
+@page:first{
+    最初のページに対する指定
+}
+##改ページをコントロールする
+page-break-after / inside / besore
+それぞれの位置で改行をどのようにするか指定する
+ex) page-break-after: avoid;   これを指定した直後の開業を避ける
+ orphans / window
+ - 改ページされる前/後のページに最低限あって欲しい行数を指定する
+
+ ##画像の表示サイズ　不要な要素のディスプレイ指定 none;
