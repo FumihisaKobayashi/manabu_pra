@@ -1,0 +1,52 @@
+/*カラム = 段
+  ##２段から一段　　一定のの細さになったら段を変えたい*/
+
+
+
+  ul{
+    color: #000;
+    font: normal 1.3em sans-serif;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+}
+
+
+#gallery li{
+    border: 1px solid;
+    margin: 12px 0;
+    padding: .6em;
+
+}
+
+@media screen and (max-width:480px){
+    #gallery li{
+        width: 70%;
+        margin:5%;
+
+    }
+}
+
+@media screen and (max-width:680px){
+    #wrapper {background-color: darkgreen;}
+}
+
+
+section div#block1{
+    width: 70%;
+    float: left;
+
+}
+section div#block2{
+    width: 60%;
+    float: right;
+}
+
+@media screen and (max-width:480px){
+    section div#block1,
+    section div#block2{
+        float: none;
+        width: 100%;
+    }
+}
