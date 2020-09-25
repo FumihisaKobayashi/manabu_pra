@@ -1,0 +1,38 @@
+/*レスポンシブ
+  response: 反応・返信
+  反応があることでデザインが変わる。レスポンシブデザイン
+  media query  １つのファイルを様々の表示形式で合わせることができるデザイン
+  画面の横幅を取得　その時に必要なCSSを取得する*/
+
+
+/*切り替えポイント
+ブレークポイント - CSSの切り替えとなるタイミング
+##media query
+  - screen  /  print
+  - 横幅などのタイミングの基準となる情報*/
+
+
+
+  ul{
+    color: #000;
+    font: normal 1.3em sans-serif;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+}
+@media screen and (max-width:480px){
+     #wrapper {background-color: navy;}
+}
+
+@media screen and (max-width:680px){
+    #wrapper {background-color: darkgreen;}
+}
+
+li{
+    border: 1px solid;
+    margin: 12px 0;
+    padding: .6em;
+
+}
+
